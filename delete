@@ -1,0 +1,5 @@
+#!/bin/bash
+kubectl delete -f client-pod.yaml
+kubectl delete -f service.yaml
+kubectl delete -f pod.yaml
+kubectl delete -f config-map.yaml
